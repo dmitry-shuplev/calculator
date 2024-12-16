@@ -7,9 +7,6 @@ public class MathOperation {
     char operator = '+';
 
     public static void main(String[] args) {
-        System.out.println("Инициализация1");
-        System.out.println("Инициализация2");
-
     }
 
     public void initializeThisOperatin(MathOperation MO) {
@@ -92,5 +89,5 @@ public class MathOperation {
         }
         return arabNumber;
     }
-    // Закрывающая кавачка класса MathOpatin
+    // Закрывающая кавычка класса MathOpatin
 }
