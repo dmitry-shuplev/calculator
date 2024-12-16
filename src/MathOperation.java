@@ -8,7 +8,6 @@ public class MathOperation {
 
     public static void main(String[] args) {
         System.out.println("Инициализация1");
-        ;
         System.out.println("Инициализация2");
 
     }
@@ -40,6 +39,7 @@ public class MathOperation {
             MO.operator = '+';
         }
     }
+
     public boolean isOperatorCorrect(char operator) {
         switch (operator) {
             case '+':
@@ -87,7 +87,6 @@ public class MathOperation {
             if (currentNumber >= previousNumber) {
                 arabNumber = arabNumber + currentNumber;
             } else arabNumber = arabNumber - currentNumber;
-            ;
 
             System.out.println();
         }
