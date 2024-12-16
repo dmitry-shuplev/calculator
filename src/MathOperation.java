@@ -80,6 +80,7 @@ public class MathOperation {
                     previousNumber = currentNumber;
                     currentNumber = 1000;
                     break;
+                default: currentNumber = 0;
             }
             if (currentNumber >= previousNumber) {
                 arabNumber = arabNumber + currentNumber;

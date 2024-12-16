@@ -3,7 +3,6 @@ public class Calculator {
 
     public static void main(String[] args) {
         calculatorTest();    }
-
     public static double calculate(MathOperation MO){
         char operator = MO.operator;
         int firstOperand = MO.firstOperande;
